@@ -1,0 +1,5 @@
+D:\DevelopmentProject\edwardt-study\sorting\sorting\obj\Debug\ResolveAssemblyReference.cache
+D:\DevelopmentProject\edwardt-study\sorting\sorting\bin\Debug\sorting.exe
+D:\DevelopmentProject\edwardt-study\sorting\sorting\bin\Debug\sorting.pdb
+D:\DevelopmentProject\edwardt-study\sorting\sorting\obj\Debug\sorting.exe
+D:\DevelopmentProject\edwardt-study\sorting\sorting\obj\Debug\sorting.pdb

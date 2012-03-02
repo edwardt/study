@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sorting", "sorting\sorting.csproj", "{9090631B-1361-490F-95DD-F49E2A590E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synchronization", "Synchronization\Synchronization.csproj", "{B19D90EE-2D05-4974-9C7C-D701DA8F4D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9090631B-1361-490F-95DD-F49E2A590E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9090631B-1361-490F-95DD-F49E2A590E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9090631B-1361-490F-95DD-F49E2A590E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9090631B-1361-490F-95DD-F49E2A590E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19D90EE-2D05-4974-9C7C-D701DA8F4D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19D90EE-2D05-4974-9C7C-D701DA8F4D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19D90EE-2D05-4974-9C7C-D701DA8F4D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19D90EE-2D05-4974-9C7C-D701DA8F4D71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = sorting\sorting.csproj
+	EndGlobalSection
+EndGlobal

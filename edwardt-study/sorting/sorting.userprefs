@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Synchronization/BasicLock.cs">
+    <Files>
+      <File FileName="sorting/Program.cs" Line="69" Column="1" />
+      <File FileName="sorting/BinarySearch.cs" Line="1" Column="1" />
+      <File FileName="sorting/Average.cs" Line="14" Column="5" />
+      <File FileName="sorting/comparison-based/BubbleSort.cs" Line="18" Column="55" />
+      <File FileName="sorting/comparison-based/InsertionSort.cs" Line="1" Column="1" />
+      <File FileName="sorting/comparison-based/ShellSort.cs" Line="1" Column="1" />
+      <File FileName="sorting/common/Helper.cs" Line="1" Column="1" />
+      <File FileName="Synchronization/Main.cs" Line="1" Column="1" />
+      <File FileName="Synchronization/Dikjstra.cs" Line="11" Column="6" />
+      <File FileName="sorting/comparison-based/Quicksort.cs" Line="1" Column="1" />
+      <File FileName="sorting/Data-based/RadixSort.cs" Line="1" Column="1" />
+      <File FileName="sorting/Data-based/CountingSort.cs" Line="1" Column="1" />
+      <File FileName="sorting/Data-based/BucketSort.cs" Line="1" Column="1" />
+      <File FileName="Synchronization/BasicLock.cs" Line="6" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/developer/Project/study/sorting/sorting/BubbleSort.cs" line="20" />
+      <Breakpoint file="/Users/developer/Project/study/sorting/sorting/comparison-based/BubbleSort.cs" line="71" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

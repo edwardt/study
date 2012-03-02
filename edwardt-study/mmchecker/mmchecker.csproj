@@ -1,0 +1,428 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24A0C8AA-09CF-4E87-B517-E425BA2C530A}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>mmchecker</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>mmchecker</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="src\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\algorithm\SimpleFlowGraphBuilder.cs" />
+    <Compile Include="src\cil\arithmetic\CIL_add.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_and.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_ceq.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_cgt.cs" />
+    <Compile Include="src\cil\arithmetic\CIL_clt.cs" />
+    <Compile Include="src\cil\arithmetic\CIL_conv_i4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_conv_i8.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_conv_r8.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_div.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_mul.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_neg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_or.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_rem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_shl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_shr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_sub.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\arithmetic\CIL_xor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_beq.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_bge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_bgt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_ble.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_blt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_bne_un.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_br.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_brfalse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\branch\CIL_brtrue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CILClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CILClassField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CILInstruction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CILMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CILParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CILProgram.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CILScanner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_call.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_callvirt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_dup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_endfinally.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldarg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldc_i4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldc_r8.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldelem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldfld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldftn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldlen.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldloc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldnull.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ldsfld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_leave.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_newarr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_newobj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_nop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_pop.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_ret.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_starg.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_stelem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_stfld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_stloc.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\CIL_stsfld.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\variable\CILVariable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\variable\CILVar_array.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\variable\CILVar_double.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\variable\CILVar_int32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\variable\CILVar_int64.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\cil\variable\CILVar_object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\FindBarrierMaxflowParallel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\main.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\maxflow\Edge.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\maxflow\Graph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\maxflow\TestMaxFlow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\maxflow\Vertex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\tracing\Tracer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\util\CheckerConfiguration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\util\Configuration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\util\FreeStack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\util\IntPair.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\util\SmallIntSet.cs" />
+    <Compile Include="src\util\Strtok.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedLock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedPulse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedRead.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedUnlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedVolatileRead.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedVolatileWrite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedWait.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DelayedWrite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\action\DummyDelayedAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\observer\Observer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\observer\SimpleCumulativeObserver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\observer\SimpleObserver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\OrderingTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\State.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\StateSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\StateSnapshot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\ThreadState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValueManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_array.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_arrayinst.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_double.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_ftn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_int32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_int64.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_objectinst.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_thread.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\value\VMValue_threadstart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\VMGlobalVariables.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\VMLocalVariableBlock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\vm\VMStaticVariable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,5 @@
+D:\DevelopmentProject\edwardt-study\sorting\Synchronization\bin\Debug\Synchronization.exe
+D:\DevelopmentProject\edwardt-study\sorting\Synchronization\bin\Debug\Synchronization.pdb
+D:\DevelopmentProject\edwardt-study\sorting\Synchronization\obj\Debug\ResolveAssemblyReference.cache
+D:\DevelopmentProject\edwardt-study\sorting\Synchronization\obj\Debug\Synchronization.exe
+D:\DevelopmentProject\edwardt-study\sorting\Synchronization\obj\Debug\Synchronization.pdb
